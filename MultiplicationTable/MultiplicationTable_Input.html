@@ -1,0 +1,44 @@
+﻿<html>
+<head>
+    <title>multiplication table</title>
+	<link href="MultiplicationTable.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	body {
+		text-align: center;
+		font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: bolder;
+		font-size: large;
+	}
+	</style>
+</head>
+<body bgcolor="green">
+    <form name="mT">
+        <h1>Multiplication Table</h1>
+        Enter a Number <input type="number" id="num" required="required" />
+        <br />
+        <br />
+        <input type="button" name="calc" onclick="c2t()" value="Generate Times Table" />
+        <table border="1" id="table">
+
+        </table>
+    </form>
+    <!--<script>-->
+        
+        <!--//function c2t() {
+        //    var message = 'Fill in the field';
+        //    var number = document.forms.mT.num.value;
+        //    var string = "<tr><th>" + number + " times tables</th></tr>";
+            
+        //    for (i = 1; i <= 10; i++)
+        //    {
+        //        string += "<tr><td>";
+        //        string += number + " x " + i + " = " + (i * number) + "\n";
+        //        string += "</td></tr>";
+        //    }
+        //    document.getElementById("table").innerHTML = string;
+        //    return false;
+        //}-->
+    <!--</script>-->
+    <script src="MultiplicationTable.js"></script>
+</body>
+</html>
